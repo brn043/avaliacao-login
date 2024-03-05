@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: orangered;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-block{
+    width: 30%;
+    height: 40%;
+    background-color: #282828;
+    color: orangered;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 7px 10px #282828ab;
+    @media  screen and (min-width: 300px) {
+        width: 85%;
+        height: 40%;
+        font-size: 14px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        width: 30%;
+        height: 40%;
+    }
+}
+
+.login-block p{
+    margin: 10px;
+}
+
+.login-block button{
+    background-color: #282828;
+    color: orangered;
+    width: 20%;
+    height: 10%;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+.login-block button:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: #282828;
+}
+
+.login-block input{
+    @media  screen and (min-width:300px) {
+        width: 20%;
+        height: 15px;
+    }
+}
